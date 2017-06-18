@@ -18,7 +18,6 @@ defmodule Cards do
     for suit <- suits, value <- values do
       "#{value} of #{suit}"
     end
-
   end
 
   def shuffle(deck) do
